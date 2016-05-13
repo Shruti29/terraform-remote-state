@@ -8,7 +8,7 @@ Before running the 'terraform.py' ensure the following resources on your system.
       export AWS_DEFAULT_REGION=<Region name><br />
       export AWS_ACCESS_KEY_ID=<Your access key id><br />
       export AWS_SECRET_ACCESS_KEY=<Your secret key id><br />
-      export S3_BUCKET_NAME=pubc-tfstate<br />
+      export S3_BUCKET_NAME=bucket-tfstate<br />
       export DB_DOMAIN_NAME=tfstate<br />
 3. Run 'pip install -r requirements.txt' (To install dependencies)<br />
 4. The Terraform template file is in the same directory as the resository.<br /><br />
